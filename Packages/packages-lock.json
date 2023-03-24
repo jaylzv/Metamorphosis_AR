@@ -1,9 +1,15 @@
 {
   "dependencies": {
-    "com.magicleap.unitysdk": {
-      "version": "file:com.magicleap.unitysdk",
+    "com.magicleap.setuptool": {
+      "version": "file:com.magicleap.setuptool",
       "depth": 0,
       "source": "embedded",
+      "dependencies": {}
+    },
+    "com.magicleap.unitysdk": {
+      "version": "file:com.magicleap.unitysdk.tgz",
+      "depth": 0,
+      "source": "local-tarball",
       "dependencies": {
         "com.unity.xr.magicleap": "7.0.0",
         "com.unity.xr.arfoundation": "5.0.0-pre.12",
